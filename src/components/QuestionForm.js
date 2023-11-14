@@ -4,11 +4,12 @@ function QuestionForm(props) {
 
 
   const [formData, setFormData] = useState({
-    prompt: "",
-    answer1:"",
-    answer2: "",
-    answer3: "",
-    answer4: "",
+    prompt : "",
+    // answers : ["", "", "", ""],
+    answer1 : "",
+    answer2 : "",
+    answer3 : "",
+    answer4 : "",
     correctIndex: 0,
   });
 
